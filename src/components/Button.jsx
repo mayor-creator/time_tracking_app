@@ -1,4 +1,5 @@
-export function Button({ children }) {
-  return <button>{children}</button>;
+export function Button({ style, children }) {
+  return <button className={style}>{children}</button>;
 }
+
 Button.propTypes;
