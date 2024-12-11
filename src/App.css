@@ -1,5 +1,29 @@
+:root {
+  --color-blue: hsl(246, 80%, 60%);
+  --color-light-orange: hsl(15, 100%, 70%);
+  --color-soft-blue: hsl(195, 74%, 62%);
+  --color-light-red: hsl(348, 100%, 68%);
+  --color-lime-green: hsl(145, 58%, 55%);
+  --color-violet: hsl(264, 64%, 52%);
+  --color-soft-orange: hsl(43, 84%, 65%);
+  --color-very-dark-blue: hsl(226, 43%, 10%);
+  --color-dark-blue: hsl(235, 46%, 20%);
+  --color-de-saturated-blue: hsl(235, 45%, 61%);
+  --color-pale-blue: hsl(236, 100%, 87%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
 body {
-  background-color: hsl(226, 43%, 10%);
-  color: hsl(0, 0%, 100%);
+  background-color: var(--color-very-dark-blue);
+  color: var(--color-white);
   font-family: 'Rubik';
+}
+
+h1 {
+  text-align: center;
+}
+
+.wrapper{
+  width: min(100% - 2rem,1008px);
+  margin-inline: auto;
 }
