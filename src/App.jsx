@@ -1,6 +1,7 @@
 import { Profile } from "./components/Profile.jsx";
 import { Card } from "./components/Card.jsx";
 import { data } from "./util/data.js";
+import "./App.css";
 
 function App() {
   return (
