@@ -5,7 +5,7 @@ import "./App.css";
 
 function App() {
   return (
-    <>
+    <div className="wrapper">
       <header>
         <h1>Time Tracking Dashboard</h1>
       </header>
@@ -17,7 +17,7 @@ function App() {
           ))}
         </div>
       </main>
-    </>
+    </div>
   );
 }
 
