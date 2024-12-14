@@ -14,10 +14,6 @@
   font-weight: 500;
 }
 
-.info_text {
-  font-size: 2rem;
-}
-
 .work {
   background-color: var(--color-light-orange);
   color: black;
