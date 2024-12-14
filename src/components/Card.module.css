@@ -1,0 +1,43 @@
+.card_container {
+  border-radius: 1.125rem;
+  padding: 1.5rem;
+}
+
+.title_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.info_text {
+  font-size: 2rem;
+}
+
+.work {
+  background-color: var(--color-light-orange);
+  color: black;
+}
+.play {
+  background-color: hsl(195, 74%, 62%);
+}
+.study {
+  background-color: var(--color-light-red);
+  color: lightgray;
+}
+.exercise {
+  background-color: var(--color-lime-green);
+  color: hsl(0, 2%, 42%);
+}
+.social {
+  background-color: var(--color-de-saturated-blue);
+  color: lightgray;
+}
+.self_care {
+  background-color: var(--color-soft-orange);
+  color: black;
+}
