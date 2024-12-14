@@ -31,3 +31,10 @@ h1 {
   width: min(100% - 2rem, 1008px);
   margin-inline: auto;
 }
+
+.main_card_container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 24px;
+}

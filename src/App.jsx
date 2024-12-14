@@ -11,7 +11,7 @@ function App() {
       </header>
       <main>
         <Profile />
-        <div>
+        <div className="main_card_container">
           {data.map((dataItem) => (
             <Card key={dataItem.title} data={dataItem} />
           ))}
