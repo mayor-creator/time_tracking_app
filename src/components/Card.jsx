@@ -26,7 +26,7 @@ export function Card({ data }) {
 
   return (
     <>
-      <div>
+      <div className={styles.main_card_container}>
         <div
           className={`${styles.card_container} ${changeBackGround(data.title)}`}
         >
