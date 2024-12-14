@@ -14,16 +14,20 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   background-color: var(--color-very-dark-blue);
   color: var(--color-white);
-  font-family: 'Rubik';
+  font-family: "Rubik";
 }
 
 h1 {
   text-align: center;
 }
 
-.wrapper{
-  width: min(100% - 2rem,1008px);
+.wrapper {
+  width: min(100% - 2rem, 1008px);
   margin-inline: auto;
 }
