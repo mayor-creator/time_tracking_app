@@ -1,0 +1,13 @@
+.info_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info_text {
+  font-size: 2rem;
+}
+
+.previous_info_text {
+  font-size: 0.9375rem;
+}
